@@ -7,5 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Wood",
-  "license": "SEE LICENSE IN license.md"
+  "license": "SEE LICENSE IN license.md",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.118.0",
+    "@aws-sdk/s3-request-presigner": "^3.118.0",
+    "dotenv": "^16.0.1",
+    "html-to-docx": "^1.4.0",
+    "node-pandoc": "^0.3.0",
+    "redis": "^4.1.0",
+    "serializerr": "^1.0.3",
+    "socket.io": "^4.5.1"
+  }
 }
